@@ -29,9 +29,12 @@ Launched the Splunk by running script provided by UofT : <br/>
 <img src="https://i.imgur.com/kDexMSY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />  
-<h2>Part 1: Loaded and Analyzed Windows Logs:</h2>
+<h2>Part 1: Created Reports, Alerts, and Dashboards for the Windows Logs:</h2>
 <br />
 <br />
+<h2> ✒️📜Reports </h2>
+ <br />
+ <br />
 👌Added provided Windows logs into the Splunk
 <img src="https://i.imgur.com/lLYn8pL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -53,8 +56,13 @@ their server:  <br/>
 <img src="https://i.imgur.com/EG7IyxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2> 🚨🚨🚨Alerts </h2>
+⬇️Designed the following alerts to notify VSI of suspicious activity.
+<br />
+<br />
+Created an alert that’s triggered when the threshold has been reached, based on the determined baseline and threshold for the hourly level of failed Windows
+activity:  <br/>
+<img src="https://i.imgur.com/cfbzpHe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
