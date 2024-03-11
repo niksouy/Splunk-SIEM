@@ -65,17 +65,45 @@ their server:  <br/>
 activity: Greater than 9 <br/>
 <img src="https://i.imgur.com/cfbzpHe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
+<br >
 👌Alert-2: Created an alert that’s triggered when the threshold has been reached based on the determined baseline and threshold for the hourly count of the signature
 “an account was successfully logged on”: Greater than 18 <br/>
+ <br >
   ✒️As "signature name" sometimes changes when the Windows system updates, I was noticed to consider "signature ID" instead.
 <img src="https://i.imgur.com/VtdVaOO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-👌Alert-3: Created an alert that’s triggered when the threshold has been reached based on the determined baseline and threshold ffor the hourly count of the signature “a
+👌Alert-3: Created an alert that’s triggered when the threshold has been reached based on the determined baseline and threshold for the hourly count of the signature “a
 user account was deleted”: Greater than 17  <br/>
 <img src="https://i.imgur.com/VH3TvmG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /> 
+<br />
+<h2> 🔍🔍🔍Visualizations and dashboards </h2>
+⬇️Designed the following visualizations and added them to a dashboard called “Windows Server Monitoring.”
+ <br /> 📜I emailed all Alarms to "SOC@VSI-company.com", SOC manager at VSI.
+<br />
+<br />
+ 👌A line chart that displays the different “signature” field values over time. <br/>
+<img src="https://i.imgur.com/YOyrP9k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br >
+👌A line chart that displays the different “user” field values over time. <br/>
+<img src="https://i.imgur.com/TarN5V5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br >
+👌Illustrated the count of different signatures. <br/>
+<img src="https://i.imgur.com/pdPVS8U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br >
+👌Illustrated the count of different users. <br/>
+<img src="https://i.imgur.com/yN6yiYc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br >
+👌A single-value "Radial Gauge" visualization for on-time monitoring of a specific malicious signature("A log on was attempted using explicit credential")  <br/>
+<img src="https://i.imgur.com/iOiD1HZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br >
+
 </p>
 
 <!--
