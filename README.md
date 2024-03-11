@@ -103,6 +103,16 @@ user account was deleted”: Greater than 17  <br/>
 <img src="https://i.imgur.com/iOiD1HZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br >
+<h2>Part 2: Load and Analyze Apache Logs:</h2>
+<br />
+<br />
+<h2> ✒️📜Reports </h2>
+ <br />
+ <br />
+👌Windows Logs: Added provided Apache logs into the Splunk
+<img src="https://i.imgur.com/lLYn8pL.png" height="80%" width="80%"/>
+<br />
+<br />
 
 </p>
 
