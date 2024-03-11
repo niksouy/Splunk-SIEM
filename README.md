@@ -79,8 +79,7 @@ user account was deleted”: Greater than 17  <br/>
 <br /> 
 <br />
 <h2> 🔍🔍🔍Visualizations and dashboards </h2>
-⬇️Designed the following visualizations and added them to a dashboard called “Windows Server Monitoring.”
- <br /> 📜I emailed all Alarms to "SOC@VSI-company.com", SOC manager at VSI.
+⬇️Designed the following visualizations and added them to a dashboard called “Windows Server Monitoring”.
 <br />
 <br />
  👌A line chart that displays the different “signature” field values over time. <br/>
@@ -113,13 +112,49 @@ user account was deleted”: Greater than 17  <br/>
 <img src="https://i.imgur.com/sPHAn4U.png" height="80%" width="80%"/>
 <br />
 <br />
-👌Report-1: Created a report to show the ID number associated with the specific signature for Windows activity. This will allow VSI to view reports that show the ID number
-associated with the specific signature for Windows activity: <br/>
-<img src="" height="80%" width="80%"
-<img src="" height="80%" width="80%"
+👌Report-1: A report that shows a table of the different HTTP methods. This provided insight into the type of HTTP activity being
+requested against VSI’s web server: <br/>
+<img src="https://i.imgur.com/fEOIgVz.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/IT9cvMY.png" height="80%" width="80%" />
 <br />
 <br />
+👌Report-2: A report that shows the top 10 domains that refer to VSI’s website. This assisted VSI with identifying suspicious referrers: <br/>
+<img src="https://i.imgur.com/k3M1NQj.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/IAjJe2b.png" height="80%" width="80%" />
+<br />
+<br />
+👌Report-3: A report that shows the count of each HTTP response code. This provided insight into any suspicious levels of HTTP
+responses: <br/>
+<img src="https://i.imgur.com/bHg1iHS.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/nMpXb3i.png" height="80%" width="80%" />
+<br />
+<br />
+<h2> 🚨🚨🚨Alerts </h2>
+⬇️Designed the following alerts to notify VSI of suspicious activity.
+ <br /> 📜I emailed all Alarms to "SOC@VSI-company.com", SOC manager at VSI.
+<br />
+<br />
+👌Alert-1: Created an alert that’s triggered when the threshold has been reached based on the determined baseline and threshold for hourly activity from any
+country besides the United States: Greater than 100 <br/>
+<img src="https://i.imgur.com/tPPA3H6.png" height="80%" width="80%" />
+<br />
+<br >
+👌Alert-2: Created an alert that’s triggered when the threshold has been reached based on the appropriate baseline and threshold for the hourly
+count of the HTTP POST method: Greater than 2 <br/>
+<img src="https://i.imgur.com/x6cP7zo.png" height="80%" width="80%" />
+<br />
+<br >
+<h2> 🔍🔍🔍Visualizations and dashboards </h2>
+⬇️Designed the following visualizations and added them to a dashboard called “Apache Web Server Monitoring”.
+<br />
+<br />
+ 👌A line chart that displays the different “signature” field values over time. <br/>
+<img src="https://i.imgur.com/YOyrP9k.png" height="80%" width="80%" />
+<br />
+<br >
 
+
+ 
 </p>
 
 <!--
