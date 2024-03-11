@@ -148,10 +148,51 @@ count of the HTTP POST method: Greater than 2 <br/>
 ⬇️Designed the following visualizations and added them to a dashboard called “Apache Web Server Monitoring”.
 <br />
 <br />
- 👌A line chart that displays the different “signature” field values over time. <br/>
-<img src="https://i.imgur.com/YOyrP9k.png" height="80%" width="80%" />
+ 👌<br/>
+<img src="https://i.imgur.com/UJZ5ink.png" height="80%" width="80%" />
 <br />
 <br >
+<h1> 🎯Attack Summary—Windows </h1> 
+- <b> Severity Report: </b>
+ 
+The ratio of informational: high severity changed from 14:1 to 367:291 (6.66% to 44.22% high severity)
+This is what we expect to see when under attack
+
+- <b> Failed Activities Report: 
+<br >The ratio of success: to failure changed from 14:1 to 981:1 (6.66% to 0.10% failure)
+This is suspicious because we know we were under attack, so there should ideally be more failures 
+
+- <b> Failed Windows Activity Alert: 
+<br >35 failed attempts from 8:00-9:00 AM on March 25
+Our alert was triggered as the threshold was 4
+Would increase the threshold to 8 <br />
+
+- <b> Successful Logins Alert:
+<br >11 logins from User_a between 2:00-3:00 AM on March 25
+Didn’t trigger our alert since our threshold was 15 per hour - there were 14 logins, including the 11 from User_a
+Would edit the alert to be 7 logins per user per hour 
+
+- <b> Deleted Accounts Alert: 
+<br > No suspicious volume of deleted accounts 
+
+<h1> 📆Time Chart of Signatures:</h1>
+<br /> Between 12:00-3:00 AM on March 25 influx of “User account locked out” signatures - peaked at 896 
+<br />Between 8:00-11:00 AM on March 25 influx of “User attempted to change password” signatures  - peaked at 1258 
+
+<h1> 📆Time Chart of Users:</h1>
+<br /> Between 1:40-2:40 AM on March 25, there was an influx of User_a logins - peaking at 785 
+<br /> Between 9:10-11:00 AM on March 25, there was an influx of User_k logins  - peaking at 397 
+<br />
+<br />
+ 👌<br/> 
+<img src="https://i.imgur.com/nSKHfqq.png" height="80%" width="80%" />
+<br />
+<br >
+
+
+
+
+
 
 
  
