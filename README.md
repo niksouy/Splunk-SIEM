@@ -26,7 +26,7 @@ virtual-reality programs.
 
 <p align="center">
 Launched the Splunk by running script provided by UofT: <br/>
-<img src="https://i.imgur.com/kDexMSY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kDexMSY.png" height="80%" width="80%" />
 <br />
 <br />  
 <h2>Part 1: Created Reports, Alerts, and Dashboards for the Windows Logs:</h2>
@@ -36,24 +36,24 @@ Launched the Splunk by running script provided by UofT: <br/>
  <br />
  <br />
 👌Windows Logs: Added provided Windows logs into the Splunk
-<img src="https://i.imgur.com/lLYn8pL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lLYn8pL.png" height="80%" width="80%" />
 <br />
 <br />
 👌Report-1: Created a report to show the ID number associated with the specific signature for Windows activity. This will allow VSI to view reports that show the ID number
 associated with the specific signature for Windows activity: <br/>
-<img src="https://i.imgur.com/KLBhshg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/kl1w8k6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KLBhshg.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/kl1w8k6.png" height="80%" width="80%" />
 <br />
 <br />
 👌Report-2: Created a report that displays the severity levels, count, and percentage of each. This will allow VSI to understand the severity levels of the quickly
 Windows logs are being viewed.  <br/>
-<img src="https://i.imgur.com/qIddRR3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qIddRR3.png" height="80%" width="80%" />
 <br />
 <br />
 👌Report-3: Created a report that provides a comparison between the success and failure of Windows activities. This will show VSI if there is a suspicious level of failed activities on
 their server:  <br/>
-<img src="https://i.imgur.com/qsw36G3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/EG7IyxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qsw36G3.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/EG7IyxS.png" height="80%" width="80%" />
 <br />
 <br />
 <h2> 🚨🚨🚨Alerts </h2>
@@ -63,19 +63,19 @@ their server:  <br/>
 <br />
 👌Alert-1: Created an alert that’s triggered when the threshold has been reached, based on the determined baseline and threshold for the hourly level of failed Windows
 activity: Greater than 9 <br/>
-<img src="https://i.imgur.com/cfbzpHe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cfbzpHe.png" height="80%" width="80%" />
 <br />
 <br >
 👌Alert-2: Created an alert that’s triggered when the threshold has been reached based on the determined baseline and threshold for the hourly count of the signature
 “an account was successfully logged on”: Greater than 18 <br/>
  <br >
   ✒️As "signature name" sometimes changes when the Windows system updates, I was noticed to consider "signature ID" instead.
-<img src="https://i.imgur.com/VtdVaOO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VtdVaOO.png" height="80%" width="80%" />
 <br />
 <br />
 👌Alert-3: Created an alert that’s triggered when the threshold has been reached based on the determined baseline and threshold for the hourly count of the signature “a
 user account was deleted”: Greater than 17  <br/>
-<img src="https://i.imgur.com/VH3TvmG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VH3TvmG.png" height="80%" width="80%" />
 <br /> 
 <br />
 <h2> 🔍🔍🔍Visualizations and dashboards </h2>
@@ -84,23 +84,23 @@ user account was deleted”: Greater than 17  <br/>
 <br />
 <br />
  👌A line chart that displays the different “signature” field values over time. <br/>
-<img src="https://i.imgur.com/YOyrP9k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YOyrP9k.png" height="80%" width="80%" />
 <br />
 <br >
 👌A line chart that displays the different “user” field values over time. <br/>
-<img src="https://i.imgur.com/TarN5V5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TarN5V5.png" height="80%" width="80%" alt="Disk />
 <br />
 <br >
 👌Illustrated the count of different signatures. <br/>
-<img src="https://i.imgur.com/pdPVS8U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pdPVS8U.png" height="80%" width="80%" />
 <br />
 <br >
 👌Illustrated the count of different users. <br/>
-<img src="https://i.imgur.com/yN6yiYc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yN6yiYc.png" height="80%" width="80%" />
 <br />
 <br >
 👌A single-value "Radial Gauge" visualization for on-time monitoring of a specific malicious signature("A log on was attempted using explicit credential")  <br/>
-<img src="https://i.imgur.com/iOiD1HZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iOiD1HZ.png" height="80%" width="80%" />
 <br />
 <br >
 <h2>Part 2: Load and Analyze Apache Logs:</h2>
@@ -109,8 +109,14 @@ user account was deleted”: Greater than 17  <br/>
 <h2> ✒️📜Reports </h2>
  <br />
  <br />
-👌Windows Logs: Added provided Apache logs into the Splunk
-<img src="https://i.imgur.com/lLYn8pL.png" height="80%" width="80%"/>
+👌Apache Logs: Added provided Apache logs into the Splunk
+<img src="https://i.imgur.com/sPHAn4U.png" height="80%" width="80%"/>
+<br />
+<br />
+👌Report-1: Created a report to show the ID number associated with the specific signature for Windows activity. This will allow VSI to view reports that show the ID number
+associated with the specific signature for Windows activity: <br/>
+<img src="" height="80%" width="80%"
+<img src="" height="80%" width="80%"
 <br />
 <br />
 
