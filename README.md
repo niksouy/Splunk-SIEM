@@ -117,7 +117,7 @@ user account was deleted”: Greater than 17  <br/>
 <br />
 👌Report-1: A report that shows a table of the different HTTP methods. This provided insight into the type of HTTP activity being
 requested against VSI’s web server: <br/>
-<img src="https://i.imgur.com/fEOIgVz.png" height="80%" width="80%" />
+
 <img src="https://i.imgur.com/IT9cvMY.png" height="80%" width="80%" />
 <br />
 <br />
@@ -182,8 +182,11 @@ Would increase the threshold to 8 <br />
 Didn’t trigger our alert since our threshold was 15 per hour - there were 14 logins, including the 11 from User_a
 Would edit the alert to be 7 logins per user per hour 
 
-- <b> Deleted Accounts Alert: 
-<br > No suspicious volume of deleted accounts 
+- <b> Deleted Accounts Alert (I ended up this was not an indicator of an attack unless a significant deviation would happen):
+<br > No suspicious volume of deleted accounts; the number of deleted accounts dropped from 318 to 130, though.
+<img src="https://i.imgur.com/5dAHCSX.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/1xTzZgS.png" height="80%" width="80%" />
+<br />
 
 <h1> 📆Time Chart of Signatures:</h1>
 <br /> Between 12:00-3:00 AM on March 25 influx of “User account locked out” signatures - peaked at 896 
@@ -198,7 +201,21 @@ Would edit the alert to be 7 logins per user per hour
 <img src="https://i.imgur.com/nSKHfqq.png" height="80%" width="80%" />
 <br />
 <br >
+<p align="center">
+<h1> 🎯Attack Summary—Apache </h1 
+<br> I uploaded after-attack logs provided by UofT Bootcamp and compared their statistics with reports prior to the attack. </p>
 
+- <b> HTTP Methods Report:
+<br >POST method usage increased from 1.06% to 29.44%. It was suspected that a bad actor was uploading harmful data to resources.
+As we were overwhelmed with HTTP requests, a DDos attack could lead to this spike:
+<br />
+<img src="https://i.imgur.com/fEOIgVz.png" height="80%" width="80%" />
+
+
+:
+<br />
+<img src="" height="80%" width="80%" />
+<br />
 
 
 
