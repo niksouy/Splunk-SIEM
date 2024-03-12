@@ -29,6 +29,9 @@ Launched the Splunk by running script provided by UofT: <br/>
 <img src="https://i.imgur.com/kDexMSY.png" height="80%" width="80%" />
 <br />
 <br />  
+<p align="center">
+<h1>Statistics before attack </h1>
+<br> I compared these patterns with the ones after the attack and analyzed the deviation from a normal logs-later in this project.</p>
 <h2>Part 1: Created Reports, Alerts, and Dashboards for the Windows Logs:</h2>
 <br />
 <br />
@@ -153,9 +156,9 @@ count of the HTTP POST method: Greater than 2 <br/>
 <br />
 <br >
 <h1> 🎯Attack Summary—Windows </h1> 
-- <b> Severity Report: </b>
  
-The ratio of informational: high severity changed from 14:1 to 367:291 (6.66% to 44.22% high severity)
+- <b> Severity Report:
+<br >The ratio of informational: high severity changed from 14:1 to 367:291 (6.66% to 44.22% high severity)
 This is what we expect to see when under attack
 
 - <b> Failed Activities Report: 
