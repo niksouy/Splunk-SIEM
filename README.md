@@ -148,18 +148,21 @@ count of the HTTP POST method: Greater than 2 <br/>
 <br />
 <br >
 <h2> 🔍🔍🔍Visualizations and dashboards </h2>
-⬇️Designed the following visualizations and added them to a dashboard called “Apache Web Server Monitoring”.
+⬇️Designed the following visualizations and added them to a dashboard called “Apache Web Server Monitoring.
 <br />
 <br />
  👌<br/>
 <img src="https://i.imgur.com/UJZ5ink.png" height="80%" width="80%" />
 <br />
 <br >
-<h1> 🎯Attack Summary—Windows </h1> 
- 
+<p align="center">
+<h1> 🎯Attack Summary—Windows </h1 
+<br> I uploaded after-attack logs provided by UofT Bootcamp and compared their statistics with reports prior to the attack. </p> 
+
 - <b> Severity Report:
 <br >The ratio of informational to high severity changed from 13:1 to 4:1 (6.91% to 29.22% High Severity)
 This is what we expect to see when under attack:
+<br />
 <img src="https://i.imgur.com/9kpUlGl.png" height="80%" width="80%" />
 <br />
 
