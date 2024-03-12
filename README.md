@@ -31,7 +31,7 @@ Launched the Splunk by running script provided by UofT: <br/>
 <br />  
 <p align="center">
 <h1>Statistics before attack </h1>
-<br> I compared these patterns with the ones after the attack and analyzed the deviation from a normal logs-later in this project.</p>
+<br> I compared these patterns with the ones after the attack and analyzed the deviation from normal later in this project.</p>
 <h2>Part 1: Created Reports, Alerts, and Dashboards for the Windows Logs:</h2>
 <br />
 <br />
@@ -158,12 +158,16 @@ count of the HTTP POST method: Greater than 2 <br/>
 <h1> 🎯Attack Summary—Windows </h1> 
  
 - <b> Severity Report:
-<br >The ratio of informational: high severity changed from 14:1 to 367:291 (6.66% to 44.22% high severity)
-This is what we expect to see when under attack
+<br >The ratio of informational to high severity changed from 13:1 to 4:1 (6.91% to 29.22% High Severity)
+This is what we expect to see when under attack:
+<img src="https://i.imgur.com/9kpUlGl.png" height="80%" width="80%" />
+<br />
 
 - <b> Failed Activities Report: 
-<br >The ratio of success: to failure changed from 14:1 to 981:1 (6.66% to 0.10% failure)
-This is suspicious because we know we were under attack, so there should ideally be more failures 
+<br >The ratio of success to failure changed from 38:1 to 63:1 (2.98% to 1.56% failure).
+This is suspicious because we know we were under attack, so there should ideally be more failures: <br />
+<img src="https://i.imgur.com/5UNpnUl.png" height="80%" width="80%" />
+<br />
 
 - <b> Failed Windows Activity Alert: 
 <br >35 failed attempts from 8:00-9:00 AM on March 25
