@@ -122,13 +122,11 @@ requested against VSI’s web server: <br/>
 <br />
 <br />
 👌Report-2: A report that shows the top 10 domains that refer to VSI’s website. This assisted VSI with identifying suspicious referrers: <br/>
-<img src="https://i.imgur.com/k3M1NQj.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/IAjJe2b.png" height="80%" width="80%" />
 <br />
 <br />
 👌Report-3: A report that shows the count of each HTTP response code. This provided insight into any suspicious levels of HTTP
 responses: <br/>
-<img src="https://i.imgur.com/bHg1iHS.png" height="80%" width="80%" />
 <img src="https://i.imgur.com/nMpXb3i.png" height="80%" width="80%" />
 <br />
 <br />
@@ -208,17 +206,15 @@ Would edit the alert to be 7 logins per user per hour
 - <b> HTTP Methods Report:
 <br >POST method usage increased from 1.06% to 29.44%. It was suspected that a bad actor was uploading harmful data to resources.
 As we were overwhelmed with HTTP requests, a DDos attack could lead to this spike:
-<br />
 <img src="https://i.imgur.com/fEOIgVz.png" height="80%" width="80%" />
 
+- <b> Referrer Domains Report:
+<br >No suspicious changes to referrer domains as ratios remained within 2% of non-attack logs:
+<img src="https://i.imgur.com/k3M1NQj.png" height="80%" width="80%" />
 
-:
-<br />
-<img src="" height="80%" width="80%" />
-<br />
-
-
-
+- <b> Response Codes Report:
+<br >404 Error codes increased from 2.13% to 15%. This is good because it likely minimized damage:
+<img src="https://i.imgur.com/bHg1iHS.png" height="80%" width="80%" />
 
 
 
