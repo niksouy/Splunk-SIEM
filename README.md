@@ -204,8 +204,7 @@ Would edit the alert to be 7 logins per user per hour
 <br> I uploaded after-attack logs provided by UofT Bootcamp and compared their statistics with reports prior to the attack. </p>
 
 - <b> HTTP Methods Report:
-<br >POST method usage increased from 1.06% to 29.44%. It was suspected that a bad actor was uploading harmful data to resources.
-As we were overwhelmed with HTTP requests, a DDos attack could lead to this spike:
+<br >POST method usage increased from 1.06% to 29.44%. It was suspected that a bad actor was uploading harmful data to resources:
 <img src="https://i.imgur.com/fEOIgVz.png" height="80%" width="80%" />
 
 - <b> Referrer Domains Report:
@@ -216,9 +215,49 @@ As we were overwhelmed with HTTP requests, a DDos attack could lead to this spik
 <br >404 Error codes increased from 2.13% to 15%. This is good because it likely minimized damage:
 <img src="https://i.imgur.com/bHg1iHS.png" height="80%" width="80%" />
 
+- <b> International Activity Alert: 
+<br > There was an influx of international activity From 8:00-9:00 PM on March 25.
+Our alert wasn't triggered as the threshold was 100.
+Would decrease the threshold to 60 since I expect less international activity. <br />
 
+- <b> HTTP POST Alert: 
+<br > 1296 instances of HTTP POST between 8:00-9:00 PM on March 25.
+Our alert was triggered as the threshold was 2.
+Wouldn’t change our threshold since it aligned with the non-attack data when the attack was not in progress. <br />
+<img src="https://i.imgur.com/407L9yL.png" height="80%" width="80%" />
+<br />
 
- 
+<h1> 📆Time Chart of Clustermap:</h1>
+<br /> Data showed Ukraine suddenly becoming the highest country on the site aside from the US, as it Had 439 uses in Kyiv, Ukraine and 433 uses in Kharkiv, Ukraine.
+<br />
+<br /><img src="https://i.imgur.com/6k4o4dy.png" height="80%" width="80%" />
+<br />
+<h1> URI Data statistics:</h1>
+<br /> Observed increased use of /VSI_Account_logon.php 
+<br />
+<br /><img src="https://i.imgur.com/ARxDX6P.png" height="80%" width="80%" />
+<br />
+<h1> Summary:</h1>
+<br /> 
+
+- Attacks occurred on March 25 involving the Windows and Apache servers suspected from Kiev and Kharkiv, Ukraine.
+
+- This resulted in many user accounts being locked, and password change attempts resulted in fewer users being able to log in later in the day.
+
+- Attacks were focused on logging in and usage of VSI_Account_logon.php 
+
+<h1> Future Mitigations:</h1>
+<br /> 
+
+- Improving Web Application firewall
+
+- Increasing server capacity to prevent overloading 
+
+- Better password setup protocol, such as stronger and more unique passwords to combat account compromise.
+
+- Implementing multi-factor authentication makes it harder to compromise accounts. 
+
+  
 </p>
 
 <!--
